@@ -1,0 +1,43 @@
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:15:"osCommerce Apps";s:4:"link";s:26:"https://www.oscommerce.com";s:11:"description";s:35:"osCommerce Apps Marketplace listing";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2017 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:69:"https://www.oscommerce.com/public/sites/Website/images/oscommerce.png";s:10:"image_link";s:26:"https://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:36:"Checkout Confirmation Button-Lösung";s:4:"link";s:33:"https://apps.oscommerce.com/9zGQI";s:11:"description";s:1550:"English:<br />
+I re-organized the placement of multiple elements on the checkout confirmation page. Now it should fit the german law &sect; 312j BGB called &quot;Button-L&ouml;sung&quot;:<br />
+https://de.wikipedia.org/wiki/Button-L%C3%B6sung<br />
+<br />
+I tried to use as much original code as possible. Additional changes:<br />
+- the db query in includes/classes/order.php has been extended to display the products image<br />
+- one new variable has been added to includes/languages/german/checkout_confirmation.php<br />
+- I removed the payment informations as it does not make sense to display them as long the user did not sent his order.<br />
+<br />
+Deutsch:<br />
+Ich habe die Bestellbest&auml;tigung so angepasst, dass sie nun der &quot;Button-L&ouml;sung&quot; gerecht werden sollte:<br />
+https://de.wikipedia.org/wiki/Button-L%C3%B6sung<br />
+<br />
+Ich habe habe dazu m&ouml;glichst wenig am Code ge&auml;ndert, sondern nur Teile an die richtige Stelle verschoben. Zus&auml;tzliche &Auml;nderungen:<br />
+- die Datenbankabfrage in includes/classes/order.php wurde erweitert, damit man auch gleich das Foto vom Produkt sehen kann<br />
+- eine weitere Sprachvariable wurde zu includes/languages/german/checkout_confirmation.php hinzugef&uuml;gt um die Kenntnisnahme der AGB / der Widerrufsbelehrung zu erm&ouml;glichen<br />
+- ich habe die Zahlungsinformationen entfernt, da sie dem Kunden erst nach der Absendung der Bestellung angezeigt werden sollten (sonst &uuml;berweist der Kunde ohne jemals eine Bestellung get&auml;tigt zu haben)";s:7:"pubDate";s:31:"Wed, 01 Nov 2017 15:20:32 +0100";}i:1;a:4:{s:5:"title";s:13:"Get 1 Free BS";s:4:"link";s:33:"https://apps.oscommerce.com/T3Bra";s:11:"description";s:1104:"This contribution allows you to promote a product by giving a free product when the customer buys a specified number of the product you are promoting. This is commonly used for a &quot;buy two, get one free&quot; promotion, but it is more versatile than that: * The qualifying quantity of the product you are promoting can be any number, including one. * The free product can be the same as the promoted product or any other product in your catalog. * You can limit the free product to one per order or any number that you wish. * Like specials, you can set a date for the offer to expire. * You can have any number of products in this promotion with different requirements for each. The free product is automatically added to the customers shopping cart when they purchase a qualifying product in the qualifying quantity (or more.) The free product is removed when the customer removes the qualifying product from their cart or reduces the quantity below the qualifying quantity. The customer cannot increase the number of free products without qualifying for them. It's designed to be fairly foolproof.";s:7:"pubDate";s:31:"Wed, 01 Nov 2017 14:55:26 +0100";}i:2;a:4:{s:5:"title";s:13:"Slim Checkout";s:4:"link";s:33:"https://apps.oscommerce.com/pgaC2";s:11:"description";s:849:"Slim Checkout<br />
+<br />
+Version 1.0 - 2017-10-31<br />
+<br />
+Many Thanks for testing, comments, suggestions and help to: <br />
+@burt, @wHiTeHaT, @ArtcoInc, @Omar_one, @frankl, @Tsimi, @discxpress, @cupidare, @BrockleyJohn<br />
+<br />
+Compatible with OsCommerce 2.3.4 BS Community Version<br />
+PHP 5.4-7.1<br />
+<br />
+What it does:<br />
+<br />
+Allows to hide page areas on checkout pages:<br />
+ - optional hide on checkout pages: login.php, checkout_shipping.php, checkout_payment.phpheckout_confirmation.php and checkout_success.<br />
+ - select on which pages to hide by checkbox list the following areas: navbar, header area, boxes, footer and footer suffix<br />
+ - optional customized list of header modules to keep showing if header area is hidden. Default: store logo module, will keep showing always, even the header area is hidden.";s:7:"pubDate";s:31:"Tue, 31 Oct 2017 19:15:33 +0100";}i:3;a:4:{s:5:"title";s:26:"Session Expiration Control";s:4:"link";s:33:"https://apps.oscommerce.com/2MAEV";s:11:"description";s:691:"This allows the store owner to manage their admin panel's session expiration, as well as the customer's session expiration via Admin_Configuration_Sessions.<br />
+<br />
+If you have a problem where the customer session will not expire and/or the admin panel session expires every few days, then this addon will fix it.<br />
+<br />
+This contribution's application-level session expiration directives will override those of the server-side.<br />
+<br />
+I made this for BootStrap Edge, but it will likely work with other versions of osC. I only tested it on BS Edge. <br />
+<br />
+1 database change, and 2 easy file changes. <br />
+<br />
+This is the full package.<br />
+(includes screenshot)";s:7:"pubDate";s:31:"Sat, 28 Oct 2017 09:50:07 +0200";}i:4;a:4:{s:5:"title";s:32:"Open Source E-Commerce Solutions";s:4:"link";s:33:"https://apps.oscommerce.com/XG9TF";s:11:"description";s:132:"The Open Source E-Commerce Solution from EMoney allows you to embed a payment application to allow checkout in a secure environment.";s:7:"pubDate";s:31:"Wed, 25 Oct 2017 22:40:08 +0200";}}s:11:"items_count";i:5;}
